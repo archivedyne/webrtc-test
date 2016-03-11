@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8" />
+ <title>PeerJS sample</title>
+ <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.1.js"></script>
+ <script type="text/javascript" src="https://skyway.io/dist/0.3/peer.js"></script>
+ <script type="text/javascript" src="./index.js"></script>
+</head>
+
+<body>
+ <p>あなたのID : <span id="peer-id"></span></p>
+ <div>
+ <input type="text" id="others-peer-id" placeholder="相手のIDを入力してね♡" /><button id="call">コール</button>
+ </div>
+ <video id="video" autoplay muted></video>
+ <video id="others-video" autoplay></video>
+</body>
+</html>
+
